@@ -1,0 +1,185 @@
+/* GERAL*/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    color: #4f4f4f;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* NAVEGAÇÂO */
+
+.topbar {
+    position: fixed;
+    top: 0;
+    background-color: lavender;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0, 0,0 ,.3);
+    z-index: 999;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+    margin-left: 510px;
+}
+
+.menu__item {
+    display: inline;
+    color: #4f4f4f;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__item a {
+    color: #4a4a4a
+}
+
+/* HEADER */
+
+header {
+    padding: 70px 0 20px 0;
+}
+
+.header__titulo {
+    text-transform: uppercase;
+    color: purple;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+}
+
+.autora{
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    text-align: center;
+    height: 413px;
+    vertical-align: top;
+    margin: 0 0 20px 0;
+}
+
+.autora__nome
+.autora__ocupacao{
+    margin:0;
+}
+
+.autora__nome {
+    margin-top: 10px;
+}
+
+/* artigo*/
+
+.artigo {
+    color: #4a4a4a;
+    margin-left: 50px;
+}
+.artigo__titulo {
+    font-size: 36px;
+    margin-top: 0;
+    color: purple;
+}
+
+.artigo p {
+    font-size: 18px;
+}
+
+
+/*Layout*/
+
+.col-1-de-3 {
+    display: inline-block;
+    width: 30%;
+}
+
+.col-2-de-3 {
+    display: inline-block;
+    width: 65%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*footer*/
+
+footer {
+    background-color:#9013FE;
+    text-align: center;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.rodape p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+@media (max-width:420px){
+    .container {
+        width: 100%;
+    }
+
+    header {
+        padding: 80px 0 0 0;
+    }
+
+    .header__titulo {
+        margin: 10px 0 0 0;
+    }
+
+    .autora {
+        display: none;
+    }
+
+    .artigo__titulo {
+        font-size: 24px;
+        margin-top: 0;
+        color: purple;
+    }
+
+    .artigo {
+        margin-left: 0px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .container>img {
+        width: 50%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+
+    .col-2-de-3 {
+        width: 90%;
+        padding: 0%;
+        margin: 0%;
+        }
+
+    .artigo>img {
+        width: 250px;
+    }
+}
+
+
+
+
